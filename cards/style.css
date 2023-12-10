@@ -1,0 +1,87 @@
+@media only screen and (max-width: 375px) {
+    flex-direction: column;
+}
+
+    @media only screen and (min-width: 1440px) {
+  flex-direction: row;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 850px;
+  border-radius: 10px;
+}
+
+.container1 {
+  padding: 30px 20px;
+  background-color: hsl(31, 77%, 52%);
+  
+}
+
+.container2 {
+  padding: 30px 20px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.container3 {
+  padding: 30px 20px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.title {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: white;
+}
+
+.paragraph {
+  font-size: 15px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: white;
+}
+
+.icon {
+  max-width: 20%;
+}
+
+.box {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0)
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  white-space: nowrap;
+  font-size: 12px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: white;
+}
+
+.button1 {
+color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+color:hsl(184, 100%, 22%);
+}
+
+.button3 {
+color:hsl(179, 100%, 13%);
+}
